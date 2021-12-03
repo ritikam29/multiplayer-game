@@ -7,6 +7,7 @@ To run the project
 git clone
 
 npm i
+
 Run the command above to install all the packages
 
 Start the Project, the following commands are to be run

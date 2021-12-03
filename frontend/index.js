@@ -3,12 +3,26 @@ const snakecol = '#c2c2c2';
 const foodcol = '#ee6916';
 
 const socket = io('https://radiant-headland-58152.herokuapp.com/');
+<<<<<<< HEAD
 socket.on('init', handleInit);
 socket.on('gameState', handleGameState);
 socket.on('gameOver', handleGameOver);
 socket.on('gameCode', handleGameCode);
 socket.on('unknownCode', handleUnknownCode);
 socket.on('tooManyPlayers', handleTooManyPlayers);
+=======
+socket.on('init', manageInit);
+socket.on('gamestate', managegameState)
+socket.on('init', manageInit);
+
+socket.on('gameOver', manageGameOver);
+socket.on('gameCode', manageGameCode);
+socket.on('unknownCode', manageUnknownCode);
+socket.on('tooManyPlayers', manageTooManyPlayers);
+
+let canvas, ctx, playerNum;
+let gameActive = false;
+>>>>>>> ef5c41fc5c0d0be40e00ede82639f26c4b0ab5ea
 
 const gameScreen = document.getElementById('gameScreen');
 const initialScreen = document.getElementById('initialScreen');

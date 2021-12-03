@@ -2,7 +2,7 @@ const backgcol = '#00000';
 const snakecol = '#c2c2c2';
 const foodcol = '#ee6916';
 
-const socket = io('http://localhost:3000');
+const socket = io('https://radiant-headland-58152.herokuapp.com/');
 socket.on('init', manageInit);
 socket.on('gamestate', managegameState)
 socket.on('init', manageInit);

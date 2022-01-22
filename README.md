@@ -1,5 +1,5 @@
 
-a multiplayer snake game built with socket.io
+a multiplayer game built with socket.io
 
 
 

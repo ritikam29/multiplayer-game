@@ -1,5 +1,4 @@
-
-a multiplayer game built with socket.io
+##A multiplayer game built with socket.io
 
 
 
